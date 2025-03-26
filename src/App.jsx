@@ -3,7 +3,7 @@ import Home from "./Home";
 import Signin from "./Signin";
 // import Profile from "./profile";
 import AuthGuard from "./AuthGuard";
-import Chat from "./chat";
+// import Chat from "./chat";
 
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
           <Route path="" element={<Home />} />
           <Route path="Signin" element={<Signin />} />
           {/* <Route path="profile" element={<AuthGuard> <Profile /> </AuthGuard> }/> */}
-          <Route path="chat" element={<Chat />} />
+          {/* <Route path="chat" element={<Chat />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
